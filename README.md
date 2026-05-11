@@ -51,6 +51,6 @@ dotnet run
 ## Project Status
 - ✅ Day 1 — Auth (Register, Login, JWT)
 - ✅ Day 2 — Patient & Doctor CRUD APIs
-- 🔄 Day 3 — Appointment Booking (coming)
-- ⬜ Day 4 — Medical Records
+- ✅ Day 3 — Appointment Booking (coming)
+- 🔄 Day 4 — Medical Records
 - ⬜ Day 5 — Angular Frontend
