@@ -1,5 +1,6 @@
-using System.ComponentModel.DataAnnotations;
 using MediSync.API.Models.Appointment;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace MediSync.API.DTOs.Appointment;
 
@@ -23,6 +24,7 @@ public class CreateAppointmentDTO
 public class UpdateAppointmentStatusDTO
 {
     [Required]
+    [JsonConverter(typeof(JsonStringEnumConverter))]
     public AppointmentStatus Status { get; set; }
 }
 
@@ -40,3 +42,5 @@ public class AppointmentResponseDTO
     public string Notes { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; }
 }
+
+
