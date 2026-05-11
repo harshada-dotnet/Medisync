@@ -45,6 +45,7 @@ builder.Services.AddScoped<IPatientService, PatientService>();
 builder.Services.AddScoped<IDoctorService, DoctorService>();
 builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 builder.Services.AddScoped<IMedicalRecordService, MedicalRecordService>();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 // ── CORS ─────────────────────────────────────────────────────
 builder.Services.AddCors(options =>
