@@ -52,5 +52,5 @@ dotnet run
 - ✅ Day 1 — Auth (Register, Login, JWT)
 - ✅ Day 2 — Patient & Doctor CRUD APIs
 - ✅ Day 3 — Appointment Booking (coming)
-- 🔄 Day 4 — Medical Records
-- ⬜ Day 5 — Angular Frontend
+- ✅ Day 4 — Medical Records
+- 🔄 Day 5 — Angular Frontend
